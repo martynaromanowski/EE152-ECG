@@ -1,0 +1,54 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/martynaromanowski/Desktop/lab6_taking_your_ECG/include",
+                "/Users/martynaromanowski/Desktop/lab6_taking_your_ECG/src",
+                "/Users/martynaromanowski/Desktop/lab6_taking_your_ECG/src/freertos/portable/GCC/ARM_CM4F",
+                "/Users/martynaromanowski/Desktop/lab6_taking_your_ECG/include/freertos",
+                "/Users/martynaromanowski/.platformio/packages/framework-cmsis/CMSIS/Include",
+                "/Users/martynaromanowski/.platformio/packages/framework-cmsis-stm32l4/Include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/martynaromanowski/Desktop/lab6_taking_your_ECG/include",
+                    "/Users/martynaromanowski/Desktop/lab6_taking_your_ECG/src",
+                    "/Users/martynaromanowski/Desktop/lab6_taking_your_ECG/src/freertos/portable/GCC/ARM_CM4F",
+                    "/Users/martynaromanowski/Desktop/lab6_taking_your_ECG/include/freertos",
+                    "/Users/martynaromanowski/.platformio/packages/framework-cmsis/CMSIS/Include",
+                    "/Users/martynaromanowski/.platformio/packages/framework-cmsis-stm32l4/Include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60200",
+                "STM32L4",
+                "STM32L432xx",
+                "LL_DEFINES_SYSTEMCORECLOCK",
+                "F_CPU=80000000L",
+                ""
+            ],
+            "compilerPath": "/Users/martynaromanowski/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mfloat-abi=hard",
+                "-mfpu=fpv4-sp-d16",
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                "-mfloat-abi=hard",
+                "-mfpu=fpv4-sp-d16",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
